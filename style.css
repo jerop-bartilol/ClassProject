@@ -1,0 +1,80 @@
+h1{
+    color: black;
+     margin-top: 150px;
+     margin-left: 400px;
+     font-weight: 800;
+     font-size: 100px;
+     font-weight: 800;
+     margin-right: 300px;
+     padding-left: 20px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .First{
+     color: white;
+     margin-left: 200px;
+     background-color: black;
+     opacity: 0.7;
+     font-size: 30px;
+     margin-right: 500px;
+     padding-left: 40px;
+     margin-left: 400px;
+     margin-top: 30px;
+ }
+ 
+ .images{
+     display: flex;
+     border: 0.5px;
+     border-radius: 30px;
+     justify-content: space-around;
+ }
+ h2{
+     color: white;
+     font-weight: 500;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .images h2:hover{
+     color: wheat;
+ }
+ p{
+     color: wheat;
+     font-size: 30px;   
+ }
+ body{
+     background-color: black;
+ }
+ .body2{
+   margin-top: 200px;
+ }
+ ul{
+     list-style-type: none;
+ }
+ .footer1{
+     background-color: black;
+     color: white;
+     font-size: 15px;
+     display: flex;
+     padding-left: 20%;
+ }
+ .footer1:hover{
+     color: red;
+ }
+ .image1{
+     height: 750px;
+ 
+ }
+ .navbar{
+    top: 0%;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    padding-left: 600px ;
+    font-size: 30px;
+    gap: 10%;
+}
+.navbar a{
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+}
+ 
+ 
