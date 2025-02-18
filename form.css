@@ -1,0 +1,88 @@
+.body{
+    background-color: black;
+    
+} .navbar{
+    top: 0%;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    padding-left: 600px ;
+    font-size: 30px;
+    gap: 10%;
+}
+.navbar a{
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+}
+.project{
+    background-image: url(assets/car.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.contact-container{
+    text-align: center;
+    font-size: xx-large;
+    color:white;
+    
+}
+
+.form1{
+    border: 0.5px solid black;
+    width: 30%;
+    background-color: black;
+  border-radius: 5px;
+    margin-left: 400px;
+    height: 380px;
+    opacity: 0.8;
+    color: white;
+    margin-top: 100px;
+}
+.form1 label{
+    font-size: x-large;
+    text-align: center;
+    margin-left: 80px;
+}
+.form1 input{
+    font-size:20px;
+    margin-left: 45px;
+}
+button{
+    font-size: large;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 150px;
+
+}
+.coin{
+
+    color:white;
+  font-size: x-large;
+  text-align: center;
+  width: 20%;
+  margin-left: 450px;
+  background-color: black;
+  margin-top:10px ;
+  opacity: 0.8;
+}
+body{
+    background-color: black;
+}
+.contain{
+    gap: 400px;
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+.container h3{
+    font-size: larger;
+    
+}
+
+
+
+
+
+
