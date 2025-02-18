@@ -1,5 +1,5 @@
 h1{
-    color: black;
+    color: white;
      margin-top: 150px;
      margin-left: 400px;
      font-weight: 800;
@@ -43,7 +43,7 @@ h1{
      background-color: black;
  }
  .body2{
-   margin-top: 200px;
+   margin-top: 30px;
  }
  ul{
      list-style-type: none;
@@ -76,5 +76,59 @@ h1{
     text-decoration: none;
     color: white;
 }
- 
+.hero {
+    width: 100%;
+    height: 100vh; /* Full screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: url(image2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media(max-width:400px){
+    .navbar{
+       padding-left: 5px;
+        font-size: 15px;
+        display: flex;
+        gap: 0.002px;
+}
+h2{
+    font-size: 20px;
+}
+p{
+    font-size: 5px;
+}
+    h1{
+        font-size: medium;
+        padding-right:500px ;
+    }
+    .First{
+        font-size: small;
+    }
+}
+@media screen and (max-width: 768px) {
+    .hero {
+        background-size: contain; /* Adjust image to fit smaller screens */
+        background-attachment: scroll; /* Avoid fixed background on mobile */
+        max-height: 200px;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+    .footer1{
+       font-size: 5px;
+       padding-left: 5px;
+       gap: 0.5px;
+    }
+}
+
  
